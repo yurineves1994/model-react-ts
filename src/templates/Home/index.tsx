@@ -1,11 +1,9 @@
-import { useState } from 'react';
+import { Header } from '~/components/Header';
 
 export const Home = () => {
-  const [state, setState] = useState('Olá mundo');
-
   return (
     <>
-      <h2>{state}</h2>
+      <Header />
     </>
   );
 };
